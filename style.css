@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+
+ 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Teko', sans-serif;
+
+}
+
+
+body {
+    min-height: 100vh;
+    background-image: url(/images/anders-jilden-AkUR27wtaxs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    font-size: 1.3rem;
+}
+
+
+td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+
+.owner {
+    width: 82vw;
+    height: 90vh;
+    background-color: #fff5;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    backdrop-filter: blur(7px);
+    border-radius: .8rem;
+    overflow: hidden;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  .header {
+    width: 100%;
+    height: 10%;
+    background-color: #fff4;
+    padding: .8rem 1rem;
+  }
+
+  .table {
+    width: 95%;
+    max-height: calc(89% - 1.6rem);
+    background-color: #fffb;
+    margin: .8rem auto;
+    border-radius: .6rem;
+    overflow: auto;
+    font-weight: 200;
+
+ }
+
+  tbody tr:nth-child(even) {
+    background-color: #0000000b;
+}
+
+
+
+
+
